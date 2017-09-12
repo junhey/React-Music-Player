@@ -1,5 +1,11 @@
 export const MUSIC_LIST = [
 	{
+		id: 4,
+		title: '我要你',
+		artist: '任素汐',
+		file: 'http://oj4t8z2d5.bkt.clouddn.com/%E6%88%91%E8%A6%81%E4%BD%A0.mp3',
+		cover: 'http://oj4t8z2d5.bkt.clouddn.com/%E6%88%91%E8%A6%81%E4%BD%A0.jpg'
+	}, {
 		id: 1,
 		title: 'FXXK IT',
 		artist: 'bigbang',
@@ -17,12 +23,6 @@ export const MUSIC_LIST = [
 		artist: '老狼',
 		file: 'http://oj4t8z2d5.bkt.clouddn.com/%E6%81%8B%E6%81%8B%E9%A3%8E%E5%B0%98.mp3',
 		cover: 'http://oj4t8z2d5.bkt.clouddn.com/%E6%81%8B%E6%81%8B%E9%A3%8E%E5%B0%98.jpg'
-	}, {
-		id: 4,
-		title: '我要你',
-		artist: '任素汐',
-		file: 'http://oj4t8z2d5.bkt.clouddn.com/%E6%88%91%E8%A6%81%E4%BD%A0.mp3',
-		cover: 'http://oj4t8z2d5.bkt.clouddn.com/%E6%88%91%E8%A6%81%E4%BD%A0.jpg'
 	}, {
 		id: 5,
 		title: '成都',
