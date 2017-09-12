@@ -1,11 +1,13 @@
 import React from 'react'
 import  './musiclist.less'
 import Pubsub from 'pubsub-js'
+import { hashHistory } from 'react-router'
 
 class MusicListItem extends React.Component{
 	playMusic(musicItem){
 		Pubsub.publish('PLAY_MUSIC' , musicItem);
 		Pubsub.publish('IS_PLAY' , true);
+		hashHistory.push('/');
 	}
 	deleteMusic(musicItem , event){
 		event.stopPropagation();
